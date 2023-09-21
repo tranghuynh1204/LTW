@@ -1,4 +1,4 @@
-FROM tomcat:9.0-jdk18-corretto-al2
+FROM tomcat:9.0-jdk11-corretto-al2
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
 ADD W4_21110856.war /usr/local/tomcat/webapps/
